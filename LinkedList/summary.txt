@@ -1,0 +1,47 @@
+1.AddList
+  使用栈本质上也是为了反转链表
+  自身反转链表时记得将链表反转回去
+2.BinaryTree2DoubleList
+  借助队列中序遍历
+  方法2构造了一种有趣的结构
+3.CommonPartsOfSortedLinkedList
+  相同部分可能不是完全重合的
+4.CopyListWithRand
+  HashMap方法比较容易理解
+  方法2看看
+5.DelLastKNode
+  注意头节点的删除
+6.DelMidNode
+  双指针的遍历
+7.GetIntersectNode
+  比较复杂
+8.InsertNum
+  主要是头节点前后的插入以及链表为null的时候的插入
+9.IsPalindrome
+  借助与栈或者反转链表
+10.JosephusKill
+  常规做法注意m=1的删除
+  进阶做法就很秀了，需要推导删除节点的index
+11.ListPartiton
+  快排，但是不稳定，相对顺序可能会变
+  6个指针记录三个子链表
+12.MergeSortList
+  常规做法
+13.Relocate
+  快慢指针操作
+14.RemoveNodeWired
+  其实并没有删除制定节点，而是复制删除下个节点，且不能删除尾节点
+15.RemoveRep
+  HashSet就很简单
+16.RemoveValue
+  借助栈很简单,栈弹出的有个小技巧
+  双指针向后滚动也可以
+17.ReverseKNode
+  借助栈，存在疑问
+18.ReverseList
+  经典三指针反转链表
+  双向链表反转注意连接
+19.ReversePartList
+  反转链表升级，主要preFrom的是否为null需要注意一下
+20.SelectionSort
+  可以反复看看，不是很赞同左神写的代码
