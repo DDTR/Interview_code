@@ -64,8 +64,8 @@ public class AddList{
             cur = new Node(n%10);
             cur.next = pre;
             add = n / 10;
-            reverseHead1 = reverseHead1.next;
-            reverseHead2 = reverseHead2.next;
+            reverseHead1 = reverseHead1!=null?reverseHead1.next:null;
+            reverseHead2 = reverseHead2!=null?reverseHead2.next:null;
         }
         if(add==1){
             pre = cur;
