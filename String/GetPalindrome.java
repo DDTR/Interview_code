@@ -59,7 +59,7 @@ public class GetPalindrome{
         int chsRight = chs.length - 1;
         int chslpsLeft = 0;
         int chslpsRight = chslps.length - 1;
-        int resLeft = 0;
+        int resLeft = 0;    `   
         int resRight = res.length - 1;
         int tempLeft = 0;
         int tempRight = 0;
